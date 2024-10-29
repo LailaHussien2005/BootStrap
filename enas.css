@@ -1,0 +1,315 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* start nav */
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border: 1px solid white;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.199);
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(0 0 0);
+}
+
+.nav-link.active:hover {
+    background-color: rgb(235, 27, 27);
+    transition: all 1s ease;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+}
+
+.nav-item:hover {
+    background-color: rgb(235, 27, 27);
+    transition: all 1s ease;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: rgb(0 0 0);
+}
+
+.nav-item dropdown:hover {
+    background-color: rgb(235, 27, 27);
+    transition: all 1s ease;
+}
+
+b {
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-left: 1000px;
+}
+
+b::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #000;
+    transition: 0.4s;
+}
+
+b.active::before {
+    left: 26px;
+    background-color: #000000;
+}
+
+body.night {
+    background-color: #000;
+    color: #ffffff;
+}
+
+
+
+/* end nav */
+
+
+/*start section1 */
+.section {
+    background-color: rgba(239, 240, 240, 0.664);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin-top: 30%;
+}
+
+.address {
+    color: rgb(2, 2, 63);
+}
+
+.pargra {
+    color: rgb(116, 116, 110);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.button {
+    padding: 13px 30px 13px 30px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 27, 27);
+    background-color: rgb(235, 27, 27);
+}
+
+.button:hover {
+    border: 1px solid rgb(90, 90, 90);
+    background-color: rgb(90, 90, 90);
+    transition: all 1s ease;
+}
+
+/*end section */
+
+/*start section2 */
+
+.new_product:hover {
+    transform: scale(1.03);
+    transition: .7ms;
+}
+
+.Laila {
+    font-weight: 600;
+    color: #000;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.p1 {
+    color: red;
+    text-align: center;
+}
+
+/*end section */
+
+/*start section3 */
+
+.section3 {
+    margin-top: 50px;
+}
+
+.gallery:hover {
+    transform: scale(1.03);
+    transition: .7ms;
+}
+
+/*end section */
+
+/*start section4 */
+.section4 {
+    margin-top: 50px;
+}
+
+.p2 {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(100, 98, 98);
+}
+
+/*end section */
+
+/* start section5 */
+.popular {
+    border-bottom: 2px solid red;
+    transition: all .5s ease;
+    opacity: 1;
+}
+
+.box {
+
+    position: relative;
+    overflow: hidden;
+}
+
+.Card {
+    position: absolute;
+    bottom: 90%;
+    left: 83%;
+    transform: translate(0, 100%);
+    transition: all .5s ease;
+    opacity: 0;
+}
+
+.Add {
+    font-size: 22px;
+    font-weight: 600;
+    background: linear-gradient(to top, red, rgb(255, 55, 0), rgba(255, 55, 0, 0.733), rgba(255, 55, 0, 0.372), rgba(255, 55, 0, 0.034));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 15%;
+    width: 361px;
+    position: absolute;
+    bottom: 17%;
+    left: 0%;
+    transform: translate(0, 100%);
+    transition: all .5s ease;
+    opacity: 0;
+    cursor: context-menu;
+}
+
+.box:hover .Add {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.box:hover .Card {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+/*end section */
+
+/* start section6 */
+
+
+
+
+
+
+
+
+
+
+/*end section */
+
+/* start section7 */
+.section7 {
+    margin-top: 50px;
+}
+
+.Watch {
+    color: #000;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.p3 {
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(100, 98, 98);
+    margin-bottom: 30px;
+}
+
+/*end section */
+
+/* start section8 */
+
+.section8 {
+    margin-top: 50px;
+}
+
+.Watch {
+    color: #000;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.p3 {
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(100, 98, 98);
+    margin-bottom: 30px;
+}
+
+/*end section */
+
+/* start section9 */
+#Choice {
+    margin-top: 50px;
+    background-color: red;
+    height: 215px;
+    padding: 0px 15px;
+}
+
+/*end section */
+
+/* start footer  */
+.footer {
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* spaend footer  */
